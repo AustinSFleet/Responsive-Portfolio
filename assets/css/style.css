@@ -245,24 +245,20 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    
-  }
-}
-
-@media only screen and (max-width: 640px) {
   
-
   .sidebar {
       float: left;
       width: 100%;
-      /*max-width: 640px;*/
+      max-width: 640px;
       margin-left: 10%;
       margin-right: 5%;
+      bottom: 0px;
+      display: block;
+      clear: both;
         }
   #connect {
       width: 100%;
-      /*max-width: 640px;*/
+      max-width: 640px;
       margin: auto;
       text-align: center;
       padding-right: 30px;
@@ -272,6 +268,37 @@ input[type=submit] {
   .main-section {
     margin-left: 20%;
     margin-right: 200px;
+    display: inline-block;
+      
+      }
+
+}
+
+@media only screen and (max-width: 640px) {
+  
+
+  .sidebar {
+      float: left;
+      width: 100%;
+      max-width: 640px;
+      margin-left: 10%;
+      margin-right: 5%;
+      bottom: 0px;
+      display: inline-block;
+        }
+  #connect {
+      width: 100%;
+      max-width: 640px;
+      margin: auto;
+      text-align: center;
+      padding-right: 30px;
+      margin-right: 25%;
+  }
+
+  .main-section {
+    margin-left: 20%;
+    margin-right: 200px;
+    display: inline-block;
       
       }
 }
